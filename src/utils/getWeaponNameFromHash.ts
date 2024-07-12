@@ -88,6 +88,34 @@ const WEAPON_HASHES = {
   "4192643659": "Bottle",
   "4208062921": "Carbine Rifle Mk II",
   "4256991824": "Tear Gas",
+  // #MPHEIST3 DLC (v 1868)
+  "727643628": "Ceramic Pistol",
+  "2441047180": "Navy Revolver",
+  "3126027122": "Hazardous Jerry Can",
+  // #MPHEIST4 DLC (v 2189)
+  "1470379660": "Perico Pistol",
+  "2636060646": "Military Rifle",
+  "94989220": "Combat Shotgun",
+  // #MPSECURITY DLC (v 2545)
+  "3676729658": "EMP Launcher",
+  "3347935668": "Heavy Rifle",
+  "406929569": "Fertilizer Can",
+  "1171102963": "Stun Gun",
+  // #MPSUM2 DLC (V 2699)
+  "3520460075": "Service Carbine",
+  "1853742572": "Precision Rifle",
+  "3684886537": "Metal Detector",
+  // #MPCHRISTMAS3 DLC (V 2802)
+  "465894841": "WM 29 Pistol",
+  "1703483498": "Candy Cane",
+  "4272043364": "Railgun XM3",
+  // #MP2023_01 DLC (V 2944)
+  "350597077": "Tactical SMG",
+  // #MP2023_02 DLC (V 3095)
+  "1924557585": "Battle Rifle",
+  "62870901": "Snowball Launcher",
+  // #MP2023_02 DLC (V 3095)
+  "3670016037": "The Shocker",
 } as Record<string, string>;
 
 export function getWeaponNameFromHash(hash: number) {
